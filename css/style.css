@@ -358,6 +358,14 @@ li.active1{
 #cart{
 	border: 1px solid #eee;
 }
+#cart div{
+	padding: 0px 5px;
+}
+#cart div p:hover{
+	background-color: #55E6C1;
+	color: #fff;
+	cursor: pointer;
+}
 #cart p{
 	background-color: gray;
 	color: #ddd;
