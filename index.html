@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!--	<script>    var $x = jQuery.noConflict();    alert("Version: "+$x.fn.jquery); </script>-->
 </head>
 
 <body>
@@ -119,7 +122,7 @@
 				  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 				  <li data-target="#myCarousel" data-slide-to="1"></li>
 				  <li data-target="#myCarousel" data-slide-to="2"></li>
-				  
+				  <li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 
 				<!-- Wrapper for slides -->
@@ -138,7 +141,9 @@
 				  <div class="item">
 					<img src="images/slider3.jpg" alt="jobserach" style="width:100%;">
 				  </div>		  
-			
+				 <div class="item">
+					<img src="images/slider1.jpg" alt="jobserach" style="width:100%;">
+				  </div>
 				</div>
 			 </div>
 		</div>
@@ -188,6 +193,66 @@
 			
 		</div>
 	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 work">
+			  <h3>FEATURED WORKS</h3>
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita aperiam quas provident ipsum recusandae atque vitae</p>
+			</div>
+		</div>
+		<div class="portfolio-menu text-center">
+			<ul class="list-unstyled">
+				<li class="active1" data-filter="*">All</li>
+				<li data-filter=".web">WEBSITES</li>
+				<li data-filter=".logo">LOGOS & BRANDING</li>
+				<li data-filter=".graphic">GRAPHIC DESIGN</li>
+				<li data-filter=".marketing">ONLINE MARKETING</li>
+				<li data-filter=".video">VIDEO</li>
+			</ul>
+		</div>
+		<div class="isotope">
+			<div class="portfolio-item">
+				<div class="col-sm-4 filter web">
+					<img src="images/web1.jpg" alt="website">
+				</div>
+				<div class="col-sm-4 filter video">
+					<img src="images/video1.jpg" alt="website">
+				</div>
+				<div class="col-sm-4 filter graphic">
+					<img src="images/graphic1.jpg" alt="graphics">
+				</div>
+				<div class="col-sm-4 filter graphic">
+					<img src="images/graphic2.jpg" alt="graphics">
+				</div>
+				<div class="col-sm-4 filter web">
+					<img src="images/web2.jpg" alt="website">
+				</div>
+				<div class="col-sm-4 filter logo">
+					<img src="images/logo1.png" alt="website">
+				</div>
+				<div class="col-sm-4 filter logo">
+					<img src="images/logo2.png" alt="website">
+				</div>
+				<div class="col-sm-4 filter graphic">
+					<img src="images/graphic3.jpg" alt="graphics">
+				</div>
+				<div class="col-sm-4 filter logo">
+					<img src="images/logo3.png" alt="website">
+				</div>
+				<div class="col-sm-4 filter marketing">
+					<img src="images/om1.jpg" alt="website">
+				</div>
+				<div class="col-sm-4 filter logo">
+					<img src="images/logo4.png" alt="website">
+				</div>
+				<div class="col-sm-4 filter video">
+					<img src="images/video2.jpg" alt="website">
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="container">
 		  <div class="row">
 			<div class="col-xs-12 fun">
@@ -300,7 +365,176 @@
 		  	</div>
 		  </div>
 		</div>
-		
+		<div class="container">
+			  <div class="row">
+				<div class="col-xs-12 feature">
+				  <h3>FEATURED PRODUCTS</h3>
+				  <p>Lorem ipsum dolor sit amet dolor sit amet sit amet</p>
+				  <p>Lorem ipsum dolor sit amet sit amet dolor sit amet sit amet dolor sit amet sit amet</p>
+				</div>
+			  </div>
+			  <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="prodsec">
+			  	<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="topsec">
+						<div class="col-xs-9" style="background-color: #F97F51">
+							<p class="fhead">Featured Product</p>
+						</div>
+						<div class="col-xs-3" style="background-color: #F97F51">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<div class="row" id="watch">
+							<div class="col-xs-12 product" style="background-color: #fff;">
+								<img src="images/watch1.jpg" alt="watch">
+							</div>
+						</div>
+					</div>
+			  	</div>
+			  <div class="row">
+			  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rating">
+					<div class="col-xs-12">
+						<h5>iWatch 7s</h5>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<p>$589.00</p>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+			  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cart">
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-shopping-cart"></i>Add to cart</p>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-file-text-o"></i>View detail</p>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="prodsec">
+			  	<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="topsec">
+						<div class="col-xs-9" style="background-color: #F97F51">
+							<p class="fhead">Featured Product</p>
+						</div>
+						<div class="col-xs-3" style="background-color: #F97F51">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<div class="row" id="watch">
+							<div class="col-xs-12 product" style="background-color: #fff;">
+								<img src="images/watch1.jpg" alt="watch">
+							</div>
+						</div>
+					</div>
+			  	</div>
+			  <div class="row">
+			  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rating">
+					<div class="col-xs-12">
+						<h5>iWatch 7s</h5>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<p>$589.00</p>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+			  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cart">
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-shopping-cart"></i>Add to cart</p>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-file-text-o"></i>View detail</p>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="prodsec">
+			  	<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="topsec">
+						<div class="col-xs-9" style="background-color: #F97F51">
+							<p class="fhead">Featured Product</p>
+						</div>
+						<div class="col-xs-3" style="background-color: #F97F51">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<div class="row" id="watch">
+							<div class="col-xs-12 product" style="background-color: #fff;">
+								<img src="images/watch1.jpg" alt="watch">
+							</div>
+						</div>
+					</div>
+			  	</div>
+			  <div class="row">
+			  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rating">
+					<div class="col-xs-12">
+						<h5>iWatch 7s</h5>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<p>$589.00</p>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+			  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cart">
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-shopping-cart"></i>Add to cart</p>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-file-text-o"></i>View detail</p>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" id="prodsec">
+			  	<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="topsec">
+						<div class="col-xs-9" style="background-color: #F97F51">
+							<p class="fhead">Featured Product</p>
+						</div>
+						<div class="col-xs-3" style="background-color: #F97F51">
+							<i class="fa fa-diamond"></i>
+						</div>
+						<div class="row" id="watch">
+							<div class="col-xs-12 product" style="background-color: #fff;">
+								<img src="images/watch1.jpg" alt="watch">
+							</div>
+						</div>
+					</div>
+			  	</div>
+			  <div class="row">
+			  	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 rating">
+					<div class="col-xs-12">
+						<h5>iWatch 7s</h5>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-half-full"></i>
+						<i class="fa fa-star-o"></i>
+						<p>$589.00</p>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+			  		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="cart">
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-shopping-cart"></i>Add to cart</p>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-6 col-xs-12 text-center">
+							<p><i class="fa fa-file-text-o"></i>View detail</p>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 	
+		</div>
 		<footer>
 			<div class="container">					
 				<div class="row copyright">
@@ -312,7 +546,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-block">
-						<ul class="list-inline">
+						<ul class="list-inline footernav">
 							<li class="list-inline-item"><a href="">Home</a></li>
 							<li class="list-inline-item"><a href="">Page</a></li>
 							<li class="list-inline-item"><a href="">Portfolio</a></li>
@@ -327,7 +561,26 @@
 				</div>
 			</div>
 		</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script>
+		jQuery(document).ready(function(){
+			jQuery('.portfolio-item').isotope({
+				itemSelector: '.filter',
+				layoutMode: 'fitRows'
+			});
+			jQuery('.portfolio-menu ul li').click(function(e){
+				e.preventDefault();
+				jQuery('.portfolio-menu ul li').removeClass('active1');
+				jQuery(this).addClass('active1');
+
+				var selector = jQuery(this).attr('data-filter');
+				jQuery('.portfolio-item').isotope({
+					filter: selector
+				});
+				return false;
+			});
+		});
+	</script>
+	
 </body>
 </html>
