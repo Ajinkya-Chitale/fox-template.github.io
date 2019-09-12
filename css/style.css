@@ -3,6 +3,7 @@
 
 header .header-top{
 	background-color: rgb(30,31,33);
+	padding: 8px 0px;
 }
 .contactinfo ul{
 	margin: 0px !important;
@@ -406,6 +407,22 @@ footer ul li a:hover{
 	.signupbtn{
 		width: 80%;
 	}
+	.social{
+		display: none;
+	}
+	.social1 ul{
+		margin: 0px !important;
+	}
+	.social1 ul li a i{
+		padding: 12px 5px 14px 5px;
+		color: #696365;
+	}
+	.social1 ul li a{
+		font-size: 14px;
+	}
+	.social1 ul li a i:hover{
+		color: white;
+	}
 }
 @media only screen and (max-width: 600px){
 	.contactinfo,.social{
@@ -440,8 +457,27 @@ footer ul li a:hover{
 		width: 100%;
 		margin: 0px 10px 15px 10px;
 	}
+	.social{
+		display: none;
+	}
+	.social1{
+		text-align: center;
+	}
+	.social1 ul{
+		margin: 0px !important;
+	}
+	.social1 ul li a i{
+		padding: 12px 5px 14px 5px;
+		color: #696365;
+	}
+	.social1 ul li a{
+		font-size: 14px;
+	}
+	.social1 ul li a i:hover{
+		color: white;
+	}
 }
-@media only screen and (min-width:601px) and (max-width: 768px){
+@media only screen and (min-width:601px) and (max-width: 767px){
 	.contactinfo,.social{
 		text-align: center;
 	}
@@ -477,8 +513,27 @@ footer ul li a:hover{
 		width: 46%;
 		margin: 0px 10px 15px 10px;
 	}
+	.social{
+		display: none;
+	}
+	.social1{
+		text-align: center;
+	}
+	.social1 ul{
+		margin: 0px !important;
+	}
+	.social1 ul li a i{
+		padding: 12px 5px 14px 5px;
+		color: #696365;
+	}
+	.social1 ul li a{
+		font-size: 14px;
+	}
+	.social1 ul li a i:hover{
+		color: white;
+	}
 }
-@media only screen and (min-width:769px) and (max-width: 992px){
+@media only screen and (min-width:768px) and (max-width: 992px){
 	#main{
 		margin-top: 30px;
 	}
@@ -488,6 +543,13 @@ footer ul li a:hover{
 	#prodsec{
 		width: 46%;
 		margin: 0px 10px 15px 10px;
+	}
+	.social1{
+		display: none;			
+	}
+	.social ul li a i{
+		padding: 12px 4px 14px 4px;
+		color: #696365;
 	}
 }
 @media only screen and (min-width:993px){
@@ -500,5 +562,8 @@ footer ul li a:hover{
 	#prodsec{
 		width: 22%;
 		margin: 0px 10px;
+	}
+	.social1{
+		display: none;			
 	}
 }
