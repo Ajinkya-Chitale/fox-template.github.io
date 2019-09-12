@@ -318,7 +318,7 @@ li.active1{
 	font-size:12px;
 	color:#ccc;
 }
-.fa-diamond{
+.fa-diamond,.fa-trophy{
 	color: #fff;
 	font-size: 18px !important;
 	padding: 11px 0;
@@ -342,6 +342,7 @@ li.active1{
 }
 #topsec{
 	border: 1px solid #eee;
+	padding: 0;
 }
 .rating{
 	border: 1px solid #eee;
