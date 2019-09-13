@@ -357,6 +357,13 @@ li.active1{
 	font-weight: bold;
 	font-size: 20px;
 }
+#newprice{
+	border: 1px solid deepskyblue;
+	padding: 5px 10px;
+	background-color: deepskyblue;
+	border-radius: 6px;
+	color: #fff;
+}
 #cart{
 	border: 1px solid #eee;
 }
