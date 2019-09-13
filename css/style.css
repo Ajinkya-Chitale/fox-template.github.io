@@ -335,11 +335,11 @@ li.active1{
 	align-items: center;
 	padding: 10% 0;
 }
-.fa-star-half-full{
+.fa-star-half-full,.fa-star{
 	color: #55E6C1;
 }
 .fa-star-o{
-	color: gray;
+	color: darkgray;
 }
 #topsec{
 	border: 1px solid #eee;
