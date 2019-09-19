@@ -191,6 +191,18 @@ li.active1{
 	height:85px;
 	width:85px;
 }
+.incircle:hover .fa-briefcase{
+	font-size: 25px;
+}
+.incircle1:hover .fa-user{
+	font-size: 25px;
+}
+.incircle3:hover .fa-map-marker{
+	font-size: 25px;
+}
+.incircle2:hover .fa-download{
+	font-size: 25px;
+}
 .incircle1:hover{
 	background-image: linear-gradient(#000,#000);
 	color:#fff;
@@ -208,9 +220,6 @@ li.active1{
 	color:#fff;
 	height:85px;
 	width:85px;
-}
-.incircle1:hover .outcircle{
-	border:2px solid #000;
 }
 .fa-briefcase,.fa-user,.fa-download,.fa-map-marker{
 	font-size:20px;

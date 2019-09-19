@@ -4,7 +4,7 @@
 	<title>TheFOX Theme</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -275,7 +275,7 @@
 			<div class="outcircle">
 			   <div class="incircle3">
 				<i class="fa fa-map-marker"></i>
-						</div>
+			   </div>
 			</div>
 			<p class="count">3.172</p>
 			<p class="status">Offices</p>
@@ -536,7 +536,7 @@
 						<ul class="list-inline">
 							<li class="list-inline-item"><a href="">Copyright 2014 <span style="color: #55E6C1;">thefox</span></a></li>|
 							<li class="list-inline-item"><a href="">All Rights Reserved</a></li>|
-							<li class="list-inline-item"><a href="">Designed Bt Tran Mau Tri Tam</a></li>
+							<li class="list-inline-item"><a href="">Designed Bt Tran Mau Tri Tam</a></outli>
 						</ul>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-block">
@@ -556,28 +556,9 @@
 			</div>
 		</footer>
 		
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/myscript.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script>
-		jQuery(document).ready(function(){
-			jQuery('.portfolio-item').isotope({
-				itemSelector: '.filter',
-				layoutMode: 'fitRows'
-			});
-			jQuery('.portfolio-menu ul li').click(function(e){
-				e.preventDefault();
-				jQuery('.portfolio-menu ul li').removeClass('active1');
-				jQuery(this).addClass('active1');
-
-				var selector = jQuery(this).attr('data-filter');
-				jQuery('.portfolio-item').isotope({
-					filter: selector
-				});
-				return false;
-			});
-		});
-	</script>
 </body>
 </html>
